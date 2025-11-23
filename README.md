@@ -2,92 +2,64 @@
 
 ChemBro is a **Python-powered educational tool** designed to help students easily understand **electron configurations** and **atomic structure**. It automatically generates **electron shell diagrams** using Turtle graphics and retrieves **detailed element information** from a structured dataset.
 
----
+# Chem_Bro
 
-## # 🚀 Features
+A simple Python project that lets you explore basic atomic structure by drawing electron shells based on the atomic number. It’s meant to make the periodic table a bit more visual and easier to understand.
 
-### 🔬 Electron Shell Diagram Generator
-- Draws atomic shells (K, L, M, N…)
-- Places electrons evenly using angle-based geometry
-- Shows element symbol and name
-- Auto-adjusts window for visibility (PyAutoGUI)
+## 1. Project Overview
+Chem_Bro is a small tool that takes an atomic number (1–118) and shows basic details of the element along with a simple shell diagram using Python’s Turtle graphics. The idea is to help students visualize how electrons are arranged around an atom.
 
-### 📘 Chemical Element Data Explorer
-Includes detailed data for **all 118 elements**, including:
-- Atomic mass  
-- Appearance  
-- Density  
-- Category  
-- Melting & boiling point  
-- Electronic configuration  
-- Shell distribution  
+## 2. Problem Statement
+Understanding electron arrangement can be difficult when only shown static textbook diagrams. This project tries to make it easier by drawing the structure dynamically.
 
-### ⚙️ Smart Electron Configuration Algorithm
-Follows proper filling order:
-**1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → …**
+## 3. Objectives
+- Accept atomic number input  
+- Show element information  
+- Calculate electron distribution  
+- Draw shells and electrons  
+- Keep the program simple and beginner-friendly  
 
-### 🖥️ Simple Input
-Enter atomic number → get diagram.
-or 
-Enter atomic number → get info.
+## 4. Technologies Used
+### Python
+Chosen for its simplicity and readability.
 
----
+### Turtle Graphics
+Used for drawing circles and electrons visually.
 
-## 📦 Installation
+### PyAutoGUI
+Helps manage display issues when the Turtle window opens.
 
-```bash
-git clone https://github.com/your-username/ChemBro.git
-cd ChemBro
-pip install pyautogui keyboard
+### Keyboard Library
+Provides basic keyboard interaction without needing a full GUI.
+
+## 5. Features
+- Supports all 118 elements  
+- Displays element details  
+- Draws a simple shell model  
+- Interactive and easy to run  
+
+## 6. How to Run
+1. Install Python  
+2. Install required packages:
 ```
-
-*(Turtle & Tkinter come pre-installed with Python.)*
-
----
-
-## ▶️ Usage
-
-```bash
+pip install pyautogui
+pip install keyboard
+```
+3. Run:
+```
 python chemBro.py
 ```
+4. Enter atomic number  
 
-Enter atomic number (1–118) to generate:
-- Electron shell structure  
-- Element details  
+## 7. Project Structure
+```
+Chem_Bro/
+├── chemBro.py
+├── README.md
+├── Statement.md
+├── /screenshots
 
----
-
-## 🧪 Testing
-
-Tested with:
-- Hydrogen (1) → correct (1 electron)
-- Sodium (11) → correct (2,8,1)
-- Tin (50) → correct multi-shell distribution
-
----
-
-## 🧩 Challenges
-- Screen resolution inconsistencies with Turtle
-- Precise electron spacing calculations
-- Manual entry of 118 element records
-
----
-
-## 🎓 Learnings
-- Nested dictionary structures
-- Turtle coordinate geometry
-- Combining text-based input with graphical output
-- Writing modular, function-based Python code
-
----
-
-## 🌱 Future Enhancements
-- Complete GUI using Tkinter/PyQt  
-- 3D orbital visualization  
-- API-based periodic data  
-- Better error handling  
-
----
+```
 
 ## 🧑‍💻 Author  
 **Akshat Rajput**
