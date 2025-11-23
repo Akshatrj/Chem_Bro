@@ -58,7 +58,7 @@ Chem_Bro/
 ├── chemBro.py
 ├── README.md
 ├── Statement.md
-├── /screenshots
+├── Project Report
 
 ```
 ## 8. Project Workflow 
