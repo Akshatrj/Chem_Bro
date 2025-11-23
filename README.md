@@ -52,6 +52,7 @@ python chemBro.py
 4. Enter atomic number  
 
 ## 7. Project Structure
+
 ```
 Chem_Bro/
 ├── chemBro.py
@@ -60,6 +61,20 @@ Chem_Bro/
 ├── /screenshots
 
 ```
+## 8. Project Workflow 
+```
+Option-1
+Enter Atomic Number
+Prints all details about the element
+
+Option-2
+Enter Atomic Numbber
+Enter which detail you want of the element
+Print the particular detail about the element
+
+Option- 3
+Enter Atomic Number
+Draws the Electron shell diagram of the Element using turtle.
 
 ## 🧑‍💻 Author  
 **Akshat Rajput**
