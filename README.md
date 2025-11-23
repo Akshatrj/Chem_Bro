@@ -2,7 +2,7 @@
 
 ChemBro is a **Python-powered educational tool** designed to help students easily understand **electron configurations** and **atomic structure**. It automatically generates **electron shell diagrams** using Turtle graphics and retrieves **detailed element information** from a structured dataset.
 
-# Chem_Bro
+# ChemBro
 
 A simple Python project that lets you explore basic atomic structure by drawing electron shells based on the atomic number. It’s meant to make the periodic table a bit more visual and easier to understand.
 
